@@ -14,10 +14,9 @@ base-pkgs:
     - apt-file
     - debconf-utils
     - dnsutils
-    - curl
-  {% elif grains['os_family'] == 'Arch' %}
-    - curl
   {% endif %}
+  - curl
+  - zsh
 
 services:
   {% if grains['os_family'] == 'Debian' %}
