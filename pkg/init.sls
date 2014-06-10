@@ -18,10 +18,3 @@ base-pkgs:
   {% elif grains['os_family'] == 'Arch' %}
     - curl
   {% endif %}
-
-services:
-  {% if grains['os_family'] == 'Debian' %}
-    docker: docker.io
-  {% else %}
-    docker: docker
-  {% endif %}
