@@ -16,6 +16,7 @@ base-pkgs:
     - dnsutils
   {% endif %}
   - curl
+  - git
   - make
   - stow
   - zsh
