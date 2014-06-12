@@ -11,14 +11,11 @@ pkgs:
 
 base-pkgs:
   {% if grains['os_family'] == 'Debian' %}
-    - apt-file
     - debconf-utils
     - dnsutils
   {% endif %}
   - curl
   - git
-  - make
-  - stow
   - zsh
 
 services:
