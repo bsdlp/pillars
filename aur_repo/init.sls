@@ -4,3 +4,31 @@ aur_repo:
     - /srv/aur_repo/sources
     - /srv/aur_repo/srcpkg
     - /srv/aur_repo/makepkglogs
+  abs_pkgs:
+    - abs
+    - autoconf
+    - automake
+    - binutils
+    - bison
+    - fakeroot
+    - file
+    - findutils
+    - flex
+    - gawk
+    - gcc
+    - gettext
+    - grep
+    - groff
+    - gzip
+    - libtool
+    - libutil-linux
+    - m4
+    - make
+    - pacman
+    - patch
+    - pkg-config
+    - sed
+    - sudo
+    - texinfo
+    - util-linux
+    - which
