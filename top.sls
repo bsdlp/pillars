@@ -2,6 +2,7 @@ base:
   '*':
     - pkg
     - services
+    - shell
     - users
   'G@role:aur_repo':
     - match: compound
