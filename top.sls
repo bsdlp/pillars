@@ -1,8 +1,8 @@
 base:
   '*':
     - pkg
-    - users
     - services
+    - users
   'G@role:aur_repo'
     - match: compound
     - aur_repo
