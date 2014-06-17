@@ -10,6 +10,9 @@ pkgs:
   {% endif %}
 
 base-pkgs:
+  - curl
+  - git
+  - zsh
   {% if grains['os_family'] == 'Debian' %}
     - debconf-utils
     - dnsutils
@@ -173,6 +176,3 @@ base-pkgs:
     - xfonts-utils
     - xkb-data
   {% endif %}
-  - curl
-  - git
-  - zsh
