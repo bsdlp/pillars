@@ -4,8 +4,8 @@ base:
     - services
     - users
   'G@role:aur_repo':
-    - match: compound
+    - match: grain
     - aur_repo
   'G@role:mesos':
-    - match: compound
+    - match: grain
     - mesos
