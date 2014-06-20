@@ -17,6 +17,7 @@ base-pkgs:
   - debconf-utils
   - dnsutils
   {% endif %}
+  {% if 'role' in grains %}
   {% if grains['role'] == 'coldfusion' %}
   - apache2
   - arping
@@ -56,4 +57,5 @@ base-pkgs:
   - unzip
   - vim-nox
   - xkb-data
+  {% endif %}
   {% endif %}
