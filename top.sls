@@ -2,6 +2,7 @@ base:
   '*':
     - pkg
     - services
+    - ssh
     - users
   'G@role:aur_repo':
     - match: grain
