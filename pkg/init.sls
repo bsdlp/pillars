@@ -57,5 +57,9 @@ base-pkgs:
   - unzip
   - vim-nox
   - xkb-data
+  {% elif grains['role'] == 'master' %}
+  - salt-master
+  - salt-minion
+  - salt-syndic
   {% endif %}
   {% endif %}
