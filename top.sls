@@ -10,6 +10,6 @@ base:
   'G@role:mesos':
     - match: grain
     - mesos
-  'G@role:voltairemc':
+  'G@role:minecraft':
     - match: grain
     - spigot
