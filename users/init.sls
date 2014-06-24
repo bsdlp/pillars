@@ -7,12 +7,13 @@
 {% endif %}
 
 users:
+  {% if 'role' in grains %}
+  {% if grains['role'] == 'irssi' %}
   jchen:
     home: /home/jchen
     sudouser: True
     shell: {{ shell }}
-  {% if 'role' in grains %}
-  {% if grains['role'] == 'minecraft' %}
+  {% elif grains['role'] == 'minecraft' %}
   minecraft:
     home: /srv/minecraft
     sudouser: False
