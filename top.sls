@@ -5,11 +5,11 @@ base:
     - ssh
     - users
   'G@role:aur_repo':
-    - match: grain
+    - match: compound
     - aur_repo
   'G@role:mesos':
-    - match: grain
+    - match: compound
     - mesos
   'G@role:minecraft':
-    - match: grain
+    - match: compound
     - spigot
