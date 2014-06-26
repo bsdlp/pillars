@@ -20,3 +20,5 @@ users:
     shell: {{ shell }}
   {% endif %}
   {% endif %}
+  poopface:
+    absent: True
