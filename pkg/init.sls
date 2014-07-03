@@ -61,5 +61,7 @@ base-pkgs:
   - salt-master
   - salt-minion
   - salt-syndic
+  {% elif grains['role'] == 'csgo' %}
+  - lib32gcc1
   {% endif %}
   {% endif %}
