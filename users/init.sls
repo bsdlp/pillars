@@ -17,6 +17,11 @@ users:
     home: /srv/minecraft
     sudouser: False
     shell: {{ shell }}
+  {% elif grains['role'] == 'csgo' %}
+  srcds:
+    home: /srv/steam
+    sudouser: False
+    shell: {{ shell }}
   {% endif %}
   {% endif %}
   poopface:
