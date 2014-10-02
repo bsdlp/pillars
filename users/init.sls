@@ -22,6 +22,11 @@ users:
     home: /srv/steam
     sudouser: False
     shell: {{ shell }}
+  {% elif grains['role'] == 'killingfloor' %}
+  steam:
+    home: /srv/steam
+    sudouser: False
+    shell: /bin/bash
   {% endif %}
   {% endif %}
   poopface:
