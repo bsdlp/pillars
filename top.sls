@@ -10,6 +10,9 @@ base:
   'G@role:csgo':
     - match: compound
     - pkg.csgo
+  'G@role:killingfloor':
+    - match: compound
+    - killingfloor
   'G@role:mesos':
     - match: compound
     - mesos
