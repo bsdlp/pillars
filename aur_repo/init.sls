@@ -1,9 +1,9 @@
 aur_repo:
   build_dirs:
-    - /srv/aur_repo/packages
-    - /srv/aur_repo/sources
-    - /srv/aur_repo/srcpkg
-    - /srv/aur_repo/makepkglogs
+    - pkgdest: /srv/aur_repo/packages
+    - srcdest: /srv/aur_repo/sources
+    - srcpkgdest: /srv/aur_repo/srcpkg
+    - logdest: /srv/aur_repo/makepkglogs
   abs_pkgs:
     - abs
     - autoconf
