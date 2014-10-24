@@ -1,5 +1,6 @@
 base:
   '*':
+    - ipset
     - pkg
     - services
     - ssh
