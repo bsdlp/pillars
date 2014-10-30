@@ -9,3 +9,5 @@ mesos:
     - maven
     - autoconf
     - libtool
+    - libsvn-dev
+    - libapr1-dev
