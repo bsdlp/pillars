@@ -1,4 +1,5 @@
 mesos:
+  - version: 0.20.0
   - required_pkgs:
     - build-essential
     - openjdk-6-jdk
